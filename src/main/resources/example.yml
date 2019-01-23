@@ -1,0 +1,32 @@
+# Working with YAML
+
+name: John
+
+names: #Set up a list
+  - John
+  - Paul
+  - James
+  - Wick
+
+book: #book object with properties of Joe Bu and random house
+  author: Joe Bu
+  publisher: random house
+#boolean
+truth: yes
+#boolean
+another_truth: True
+#boolean
+more_true: true
+#boolean false
+false: no #No, false, FALSE
+#String value
+string_val: "This is it's quote"
+#multiple line characters
+include_new_lines: |
+  This is some
+  new lines
+  that I have typed
+ignore_new_Lines: >
+  this is just
+  one long
+  string
